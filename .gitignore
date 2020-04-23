@@ -1,3 +1,6 @@
-wordpress/wp-content/*
+/wordpress/wp-content/*
+!/wordpress/wp-content/themes
+!/wordpress/wp-content/themes/dotinstall
+!/wordpress/wp-content/themes/dotinstall/*
 
 !wordpress/.htaccess
