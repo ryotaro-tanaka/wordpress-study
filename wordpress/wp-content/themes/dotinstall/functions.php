@@ -12,3 +12,8 @@ register_sidebar(
 );
 
 add_theme_support('post-thumbnails');
+
+function shortcode_tw() {
+    return '<a href="http://twitter.com/taguchi">taguchi</a>をフォローしてね！';
+}
+add_shortcode('tw', 'shortcode_tw');
